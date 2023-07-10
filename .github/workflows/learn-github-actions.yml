@@ -2,12 +2,11 @@ name: learn-github-actions1
 run-name: ${{ github.actor }} is learning Github Actions2
 on: [push]
 jobs:
-  check-bats-version:
+  jobs1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "14"
-      - run: npm install -g bats
-      - run: bats -v
+      - run: echo 1
+  jobs2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 2
