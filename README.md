@@ -3,6 +3,8 @@ folger-demo
 
 demo
 
+[[toc]]
+
 # a header
 
 ## aa header
