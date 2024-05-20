@@ -5,6 +5,8 @@ demo
 
 [[TOC]]
 
+<toc/>
+
 # a header
 
 ## aa header
