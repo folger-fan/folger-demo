@@ -3,7 +3,7 @@ folger-demo
 
 demo
 
-[[toc]]
+[[TOC]]
 
 # a header
 
