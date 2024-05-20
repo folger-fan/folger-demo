@@ -5,7 +5,7 @@ demo
 
 [[TOC]]
 
-<toc/>
+<TOC/>
 
 # a header
 
