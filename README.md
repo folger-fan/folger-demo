@@ -16,7 +16,7 @@ demo
 ## bbheader
 
 
-```yaml{5,8}
+```yaml
 main:
   push:
     - stages:
