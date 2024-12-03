@@ -19,15 +19,12 @@ demo
 ```yaml{4}
 main:
   push:
-    - stages:
-      - name: echo file
-        image: tencentcom/ssh
-        settings:
-          host: xx.xx.xx.xxx
-          username: root
-          password: xxxx
-          port: 22
+    - docker:
+        image: node:20
+      stages:
+        - name: print node version
           script:
-            - echo hello world
-            - echo test > ~/test.txt
+            - node -v
+            - npm install
+            - npm test
 ```
